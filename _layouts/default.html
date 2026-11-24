@@ -7,7 +7,7 @@
 <a class="pular" href="#conteudo">Ir para o conteúdo</a>
 {% include header.html %}
 <main id="conteudo">
-<div class="coluna">
+<div class="{% if page.url == '/' %}largo{% else %}coluna{% endif %}">
 {{ content }}
 </div>
 </main>

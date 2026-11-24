@@ -2,13 +2,13 @@
 layout: default
 ---
 <article class="artigo">
+  <header class="cabeca">
+  <p class="cabeca-tema">Direito tributário</p>
   <h1>{{ page.title }}</h1>
   <p class="datas">Publicado em <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d/%m/%Y" }}</time>
   {%- if page.atualizado_em %} · Atualizado em <time datetime="{{ page.atualizado_em | date: '%Y-%m-%d' }}">{{ page.atualizado_em | date: "%d/%m/%Y" }}</time>{% endif %}
   {%- if page.situacao_em %} · Situação em <time datetime="{{ page.situacao_em | date: '%Y-%m-%d' }}">{{ page.situacao_em | date: "%d/%m/%Y" }}</time>{% endif %}</p>
-  {%- if page.imagem %}
-  <img class="capa" src="{{ page.imagem }}" alt="{{ page.imagem_alt | escape }}">
-  {%- endif %}
+  </header>
   <div class="corpo">
 {{ content }}
   </div>
