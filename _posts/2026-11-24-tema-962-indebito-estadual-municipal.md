@@ -4,6 +4,8 @@ titulo_busca: "Tema 962 do STF: IRPJ e CSLL no indébito estadual e municipal"
 description: "A Selic paga por Estado ou Município na restituição está fora do IRPJ e da CSLL pelo Tema 962. Os índices próprios do ente seguem em disputa nos TRFs."
 date: "2026-11-24"
 situacao_em: "2026-11-24"
+imagem: "/assets/img/capas/tema-962-indebito-estadual-municipal.png"
+imagem_alt: "Capa do texto: Tema 962 do STF, IRPJ e CSLL no indébito estadual e municipal"
 ---
 
 A Selic que um Estado ou um Município paga ao restituir tributo indevido está fora da base do IRPJ e da CSLL pela tese do Tema 962 do Supremo Tribunal Federal (STF), fixada no RE 1.063.187, que não distingue o ente devedor. Os juros e a correção calculados por índice próprio do ente não têm resposta do STF nem do Superior Tribunal de Justiça (STJ), e o acórdão do Tribunal Regional Federal (TRF) tem sido a última palavra.
@@ -19,6 +21,15 @@ Nos TRFs, a Selic do ente costuma ser desonerada até em turmas contrárias a qu
 Há, porém, turma que lê a tese como federal. A 3ª Turma do TRF da 3ª Região limitou a não incidência à Selic dos tributos federais e afirmou que os juros dos indébitos estaduais e municipais “permanecem sujeitos à tributação” (processo 5026762-44.2021.4.03.6100, Rel. Des. Fed. Consuelo Yoshida, j. 23/02/2024). O caso subiu e passou pelo STF sem exame (RE 1.544.054 AgR, 1ª Turma, Rel. Min. Alexandre de Moraes, j. 08/09/2025). Nenhum tribunal superior examinou a Selic do indébito estadual ou municipal em um sentido ou em outro, e o resultado depende da turma que julga o caso.
 
 Os índices do ente, diversos da Selic, caíram num impasse entre as duas Cortes. O STF afirma que a incidência do IRPJ e da CSLL sobre valores calculados por índices distintos da Selic é matéria infraconstitucional, em acórdãos unânimes das duas Turmas (RE 1.513.954 AgR, 2ª Turma, Rel. Min. Dias Toffoli, j. 16/12/2024; RE 1.569.179 AgR, 1ª Turma, Rel. Min. Flávio Dino, j. 25/02/2026). O STJ afirma o contrário: a extensão do Tema 962 é questão constitucional, e “somente o STF detém competência para análise acerca de eventual extensão a outros índices” (AgInt no REsp 2.161.966/SP, 1ª Turma, Rel. Min. Paulo Sérgio Domingues, j. 14/09/2026; no mesmo sentido, AgInt no REsp 2.134.660/PB, 2ª Turma, Rel. Min. Maria Thereza de Assis Moura, j. 28/05/2025). Como as duas Cortes recusam o recurso, prevalece o acórdão regional, que transita em julgado.
+
+<figure class="esquema" aria-labelledby="esq-impasse">
+<p class="esquema-titulo" id="esq-impasse">O impasse sobre os índices do ente</p>
+<div class="esquema-colunas">
+<div class="esquema-caixa"><p class="esquema-corte">STF</p><p>A incidência do IRPJ e da CSLL sobre valores calculados por índices distintos da Selic é <span class="esquema-destaque">matéria infraconstitucional</span>.</p><p class="esquema-fonte">RE 1.513.954 AgR, 2ª Turma, j. 16/12/2024; RE 1.569.179 AgR, 1ª Turma, j. 25/02/2026</p></div>
+<div class="esquema-caixa"><p class="esquema-corte">STJ</p><p>A extensão do Tema 962 é <span class="esquema-destaque">questão constitucional</span>, e só o STF pode examiná-la.</p><p class="esquema-fonte">AgInt no REsp 2.134.660/PB, 2ª Turma, j. 28/05/2025; AgInt no REsp 2.161.966/SP, 1ª Turma, j. 14/09/2026</p></div>
+</div>
+<p class="esquema-resultado">As duas Cortes recusam o recurso, e o acórdão do TRF transita em julgado.</p>
+</figure>
 
 O impasse vale contra os dois lados. No RE 1.569.179, a União recorreu de acórdão do TRF da 5ª Região que estendera a não incidência aos índices de Estados e Municípios, e o STF negou seguimento ao recurso pela mesma razão com que nega os dos contribuintes. O acórdão regional transitou em 06/05/2026. O próprio STF já indicou a saída. Rejeitou a prejudicialidade de recurso extraordinário sobre o tema e devolveu ao STJ o recurso especial que ali estava sobrestado (RE 1.610.610, Rel. Min. Alexandre de Moraes, DJe 06/07/2026). E o Plenário fixou que, recusados o recurso especial e o extraordinário só pela natureza da questão, cabe ao STJ julgar o mérito (RE 1.258.896 ED-AgR-ED-EDv-AgR, DJe 20/05/2022).
 
