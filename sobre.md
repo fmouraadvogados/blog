@@ -14,7 +14,7 @@ Alexandre C. F. Moura é advogado tributarista e sócio da [FMoura Advogados](ht
 
 Formou-se em Direito pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO) em 2007. Fez especialização em Direito Tributário Constitucional na Pontifícia Universidade Católica de São Paulo (PUC-SP), concluída em 2012, e em Direito Fiscal na Universidade de Coimbra, em 2013, e cursou o MBA em Finanças da FUNDACE, FEA-RP/USP, concluído em 2022.
 
-Aqui ele publica, em primeira pessoa, análises, provocações e opiniões sobre assuntos tributários e correlatos, surgidos no dia a dia da sua prática, para outros profissionais da área, sejam advogados, contadores ou administradores. Cada texto cita a lei, os precedentes e os dados públicos em que se apoia, com link para a fonte oficial, e traz as datas de publicação e da última atualização. Quando a norma ou a jurisprudência muda, o texto recebe nota de atualização em vez de ser retirado.
+Aqui ele publica, em primeira pessoa, análises, provocações e opiniões sobre assuntos tributários e correlatos, surgidos no dia a dia da sua prática, para outros profissionais da área, sejam advogados, contadores ou administradores. Os textos se baseiam em lei, doutrina, precedentes e dados públicos, com link para consulta na fonte oficial sempre que disponível. Cada texto traz as datas de publicação e da última atualização, feita a critério do autor quando muda o contexto normativo ou jurisprudencial.
 
 Os textos têm caráter informativo e não constituem consulta jurídica. Dúvidas e consultas devem ser dirigidas à FMoura Advogados, pelos [canais de contato do escritório](https://fmouraadvogados.com/#contato).
 
