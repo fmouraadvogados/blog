@@ -1,0 +1,15 @@
+<header class="topo">
+  <div class="faixa">
+    {%- if page.url == "/" %}
+    <div class="marca">
+      <h1 class="nome"><a href="/">{{ site.data.autor.nome }}</a></h1>
+      <p class="linha">Direito tributário</p>
+    </div>
+    {%- else %}
+    <div class="marca">
+      <p class="nome"><a href="/">{{ site.data.autor.nome }}</a></p>
+    </div>
+    {%- endif %}
+    <nav aria-label="Principal"><a href="/sobre/">Sobre o autor</a></nav>
+  </div>
+</header>

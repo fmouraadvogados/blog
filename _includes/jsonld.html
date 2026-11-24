@@ -1,0 +1,19 @@
+{%- assign a = site.data.autor -%}
+{%- capture pessoa -%}
+{"@type":"Person","@id":{{ "/sobre/#pessoa" | absolute_url | jsonify }},"name":{{ a.nome | jsonify }},"jobTitle":{{ a.cargo | jsonify }},"worksFor":{"@type":"Organization","name":{{ a.organizacao | jsonify }},"url":{{ a.organizacao_url | jsonify }}},"sameAs":[{{ a.linkedin | jsonify }}],"image":{{ a.imagem | absolute_url | jsonify }},"url":{{ "/sobre/" | absolute_url | jsonify }}}
+{%- endcapture -%}
+{%- if page.layout == 'post' -%}
+{%- if page.imagem -%}{%- assign img = page.imagem | absolute_url -%}{%- else -%}{%- assign img = "/assets/img/og-padrao.png" | absolute_url -%}{%- endif -%}
+{%- assign modificado = page.atualizado_em | default: page.date -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ modificado | date_to_xmlschema | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ page.url | absolute_url | jsonify }}},"inLanguage":"pt-BR","image":{{ img | jsonify }},"author":{{ pessoa }}}
+</script>
+{%- elsif page.url == "/" -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":{{ "/#site" | absolute_url | jsonify }},"name":{{ site.title | jsonify }},"url":{{ "/" | absolute_url | jsonify }},"description":{{ site.description | jsonify }},"inLanguage":"pt-BR","author":{"@id":{{ "/sobre/#pessoa" | absolute_url | jsonify }}}},{{ pessoa }}]}
+</script>
+{%- elsif page.url == "/sobre/" -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfilePage","url":{{ "/sobre/" | absolute_url | jsonify }},"inLanguage":"pt-BR","mainEntity":{{ pessoa }}}
+</script>
+{%- endif -%}
