@@ -1,0 +1,8 @@
+title: "Alexandre C. F. Moura"
+description: "Textos de Alexandre C. F. Moura sobre direito tributário."
+url: "https://alexandrecfmoura.blog"
+lang: pt-BR
+plugins:
+  - jekyll-sitemap
+exclude:
+  - README.md
