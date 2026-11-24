@@ -1,23 +1,17 @@
 ---
-layout: null
-title: Alexandre C. F. Moura
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alexandre C. F. Moura</title>
-<meta name="description" content="Textos de Alexandre C. F. Moura sobre direito tributário.">
-<link rel="canonical" href="https://alexandrecfmoura.blog/">
-<style>body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:40rem;margin:4rem auto;padding:0 1.25rem;line-height:1.6;color:#1a1a1a}a{color:inherit}footer{margin-top:3rem;font-size:.9rem;color:#555}</style>
-</head>
-<body>
-<main>
-<h1>Alexandre C. F. Moura</h1>
-<p>Textos sobre direito tributário. Os primeiros artigos serão publicados em breve.</p>
-<p><a href="https://fmouraadvogados.com">FMoura Advogados</a> · <a href="https://www.linkedin.com/in/alexandrecfmoura">LinkedIn</a></p>
-</main>
-<footer><a href="/privacidade.html">Privacidade</a></footer>
-</body>
-</html>
+<section class="abertura">
+  <p>Cada texto traz análises, provocações e opiniões sobre assuntos tributários e correlatos, surgidos no dia a dia da minha prática, que reputo de interesse de outros profissionais da área, sejam advogados, contadores ou administradores.</p>
+</section>
+{%- if site.posts.size > 0 %}
+<section class="lista" aria-label="Textos publicados">
+  {%- for post in site.posts %}
+  <article class="item">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="data"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d/%m/%Y" }}</time></p>
+    <p>{{ post.description }}</p>
+  </article>
+  {%- endfor %}
+</section>
+{%- endif %}

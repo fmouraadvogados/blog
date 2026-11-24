@@ -1,8 +1,23 @@
 title: "Alexandre C. F. Moura"
-description: "Textos de Alexandre C. F. Moura sobre direito tributário."
+title_home: "Alexandre C. F. Moura · Direito tributário"
+description: "Análises de direito tributário e assuntos relacionados, por Alexandre C. F. Moura, advogado."
 url: "https://alexandrecfmoura.blog"
+baseurl: ""
 lang: pt-BR
+timezone: America/Sao_Paulo
+permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
+feed:
+  path: feed.xml
+author:
+  name: "Alexandre C. F. Moura"
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
